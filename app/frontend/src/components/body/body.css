@@ -10,17 +10,23 @@
     position: absolute;
     left: 0;
     border-spacing: 0 ;
+    height: 600px;
+    width: 250px;
 }
 
 .container2{
     position: absolute;
     left: 300px;
     border-spacing: 0 ;
+    min-height: 542px;
+    max-height: 541px;
+    width: 250px;
 }
 
 
 .tdtimeline{
-    height: 57px;
+    min-height: 57px;
+    max-height: 58px;
     width: 50px;
     font-family: "Open Sans";
     border-top: 1px solid slategrey;
@@ -46,11 +52,13 @@
 
 .tdtitleline{
     border-top: 1px solid slategrey;
-    width: 196px;
+    min-width: 194px;
+    max-width: 196px;
 }
 
 .tdtitle{
-    width: 196px;
+    min-width: 194px;
+    max-width: 196px;
 }
 
 .events{
