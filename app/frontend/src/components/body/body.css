@@ -1,0 +1,246 @@
+.containerContent{
+    position: relative;
+    margin: auto;
+    width: 550px;
+    height: 500px;
+
+}
+
+.container1{
+    position: absolute;
+    left: 0;
+    border-spacing: 0 ;
+}
+
+.container2{
+    position: absolute;
+    left: 300px;
+    border-spacing: 0 ;
+}
+
+
+.tdtimeline{
+    height: 57px;
+    width: 50px;
+    font-family: "Open Sans";
+    border-top: 1px solid slategrey;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 200;
+    font-size: 16px;
+    color: slategrey;
+}
+
+.tdtime{
+    height: 58px;
+    width: 50px;
+    font-family: "Open Sans";
+    text-align: center;
+    vertical-align: top;
+    font-weight: 200;
+    font-size: 14px;
+    color: slategrey;
+}
+
+
+
+.tdtitleline{
+    border-top: 1px solid slategrey;
+    width: 196px;
+}
+
+.tdtitle{
+    width: 196px;
+}
+
+.events{
+    position: relative;
+}
+
+.cardEvents{
+    position: absolute;
+    background-color: #E2ECF5;
+    border-left: 2px solid #6dbbf1;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: slategrey;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.cardEventsActive {
+    position: absolute;
+    background-color: #E2ECF5;
+    border-left: 2px solid #6dbbf1;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: slategrey;
+    z-index: 15;
+    cursor: pointer
+}
+
+.buttonControl{
+    position: relative;
+}
+
+.buttonChange{
+    position:absolute;
+    bottom: 10px;
+    right: 5px;
+    z-index: 1;
+    font-size: 0.7em;
+    font-family: "Open Sans";
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    background-color: darkcyan;
+    cursor: pointer
+}
+
+.buttonChange:hover{
+    position:absolute;
+    bottom: 10px;
+    right: 5px;
+    z-index: 1;
+    font-size: 0.7em;
+    font-family: "Open Sans";
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cadetblue;
+    cursor: pointer
+}
+
+.buttonChange:active{
+    position:absolute;
+    bottom: 10px;
+    right: 5px;
+    z-index: 1;
+    font-size: 0.7em;
+    font-family: "Open Sans";
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: cadetblue;
+    cursor: pointer
+}
+
+
+
+.buttonNav{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttonNewEvent{
+    width: 135px;
+    height: 25px;
+
+    background-color: darkcyan;
+    border-radius: 5px;
+    border: 0;
+    font-size: 0.9em;
+}
+
+.buttonNewEvent:hover{
+    width: 135px;
+    height: 25px;
+
+    background-color: cadetblue;
+    border-radius: 5px;
+    border:  1px solid black;;
+    font-size: 0.9em;
+    cursor: pointer
+}
+
+.buttonNewEvent:active{
+    width: 135px;
+    height: 25px;
+
+    background-color: darkcyan;
+    border-radius: 5px;
+    border:  1px solid white;;
+    font-size: 0.9em;
+    cursor: pointer
+}
+
+
+.buttonNewList{
+    width: 190px;
+    height: 25px;
+    margin: 0 20px 0 20px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    border: 0;
+    font-size: 0.9em;
+}
+
+.buttonNewList:hover{
+    width: 190px;
+    height: 25px;
+    margin: 0 20px 0 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border:  1px solid black;
+    font-size: 0.9em;
+    cursor: pointer
+}
+
+.buttonNewList:active{
+    width: 190px;
+    height: 25px;
+    margin: 0 20px 0 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border:  1px solid white;;
+    font-size: 0.9em;
+    cursor: pointer
+}
+
+.buttonFAQ{
+    margin-left: 7px;
+    font-family: Arial;
+    border:  1px solid black;
+    font-size: 1em;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: lavender;
+    cursor: pointer
+}
+
+.buttonFAQ:hover{
+    margin-left: 7px;
+    font-family: Arial;
+    border:  1px solid darkcyan;
+    font-size: 1em;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: lavender;
+    cursor: pointer
+}
+
+.buttonFAQ:active{
+    margin-left: 7px;
+    font-family: Arial;
+    border:  1px solid darkcyan;
+    font-size: 1em;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: darkcyan;
+    cursor: pointer
+}
+
+.helpText{
+    right: 100px;
+    top: 25px;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 10;
+    background-color: rgba(239,239,239, 0.7);
+    border-radius: 10px 0 10px 10px;
+    width: 400px;
+    font-size: 0.9em;
+}

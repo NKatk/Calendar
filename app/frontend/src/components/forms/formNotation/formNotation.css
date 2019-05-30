@@ -1,0 +1,258 @@
+.formNotation{
+    text-align: center;
+    margin: auto;
+    width: 550px;
+}
+
+.labelArea{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.textArea{
+    max-width: 550px;
+    min-width: 550px;
+    min-height: 350px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.buttonChangeNotationSpan{
+    background-color: darkgreen;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    padding: 4px;
+    font-family: Arial;
+}
+
+.buttonChangeNotationSpan:hover{
+    background-color: darkgreen;
+    border-radius: 5px;
+    border:1px solid #000000;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer
+}
+.buttonChangeNotationSpan:active{
+    background-color: darkgreen;
+    border-radius: 5px;
+    border:  1px solid slategrey;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer
+}
+
+.buttonDeleteNotationSpan{
+    background-color: sandybrown;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    padding: 4px;
+    font-family: Arial;
+}
+
+.buttonDeleteNotationSpan:hover{
+    background-color: sandybrown;
+    border-radius: 5px;
+    border:1px solid #000000;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer
+}
+.buttonDeleteNotationSpan:active{
+    background-color: sandybrown;
+    border-radius: 5px;
+    border:  1px solid slategrey;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer
+}
+
+
+.buttonCancelNotationSpan{
+    background-color: indianred;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    padding: 4px;
+    font-family: Arial;
+}
+
+.buttonCancelNotationSpan:hover{
+    background-color: indianred;
+    border-radius: 5px;
+    border:1px solid #000000;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer
+}
+.buttonCancelNotationSpan:active{
+    background-color: indianred;
+    border-radius: 5px;
+    border:  1px solid slategrey;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer
+}
+
+.buttonSendNotation{
+    background-color: #6dbbf1;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+}
+
+.buttonSendNotation:hover{
+    background-color: #6dbbf1;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    cursor: pointer
+}
+
+.buttonSendNotation:active{
+    background-color: #6dbbf1;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    cursor: pointer
+}
+
+.buttonCancelNotation{
+    background-color: indianred;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+}
+
+.buttonCancelNotation:hover{
+    background-color: indianred;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    cursor: pointer
+}
+
+.buttonCancelNotation:active{
+    background-color: indianred;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 80px;
+    height: 25px;
+    font-size: 0.9em;
+    margin: 5px;
+    cursor: pointer
+}
+
+.errorMessageNotation{
+    color: red;
+    font-size: 0.9em;
+}
+
+.timeLabelInput{
+    position: relative;
+    width: 550px;
+    height: 75px;
+
+}
+
+.labelTimeStart{
+    left: 110px;
+    position: absolute;
+    font-size: 1.3em;
+    color: slategrey;
+}
+
+.inputTimeStart{
+    right: 110px;
+    position: absolute;
+    font-size: 1.1em;
+    width: 115px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.labelTimeEnd{
+    bottom: 10px;
+    left: 110px;
+    position: absolute;
+    font-size: 1.3em;
+    color: slategrey;
+}
+
+.inputTimeEnd{
+    bottom: 10px;
+    right: 110px;
+    position: absolute;
+    font-size: 1.1em;
+    width: 115px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.notationTitle{
+    width: 330px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.helpTextListOne{
+    margin: auto;
+    border: 1px solid black;
+    z-index: 10;
+    background-color: rgba(239,239,239, 0.5);
+    border-radius: 10px;
+    width: 400px;
+    font-size: 0.9em;
+}

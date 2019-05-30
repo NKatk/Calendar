@@ -1,0 +1,15 @@
+.notRegistration{
+    text-align: center;
+}
+
+.notRegistrationTitle{
+    font-size: 2.2em;
+    color: slategrey;
+    margin-bottom: 10px;
+}
+
+.notRegistrationLink{
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
