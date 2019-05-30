@@ -8,7 +8,7 @@ I'm used in this project:
     
 How to use:
 
-Start you MondoD after:
+Start you MondoDB after:
 
 	>>>git clone https://github.com/NKatk/Calendar.git;
 	>>>cd Caledar\app\backend;
