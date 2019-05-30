@@ -2,20 +2,10 @@
 
 I'm used in this project:
   
-  -front sider:
-    --React;
-    --Redux;
-    --React-routing(react-router-dom);
-    --JWT;
-    --CSS;
+  -front sider: React, Redux, React-routing(react-router-dom), JWT, CSS;
   
-  -back side:
-    --Node.js(Express);
-    --Mongoose;
-    --Bcrypt;
-    --JWT;
+  -back side: Node.js(Express), Mongoose, Bcrypt, JWT;
     
-
 How to use:
 
 Start you MondoD after:
